@@ -599,6 +599,9 @@
     font-size: 2em;
   }
 }
+.flow-ol li .num + .area {
+  margin-top: 3em;
+}
 .flow-ol li .txt {
   font-size: 1.3333333333em;
 }

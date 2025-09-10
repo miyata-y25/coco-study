@@ -488,6 +488,9 @@ body {
             @include min-screen($screen-sm + 1) {
                 font-size: (24em/12);
             }
+            + .area {
+                margin-top: 3em;
+            }
         }
         .txt {
             font-size: (16em/12);
