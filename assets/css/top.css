@@ -115,6 +115,9 @@
 .sec__ttl .en {
   font-family: "Montserrat", serif;
 }
+.sec__ttl .sm {
+  font-size: 1.2em;
+}
 .sec__ttl2 {
   text-align: center;
   margin-top: 3em;
@@ -236,7 +239,7 @@
 }
 
 .features-point {
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 0 auto;
   display: -webkit-box;
   display: -webkit-flex;
@@ -266,8 +269,7 @@
 }
 @media screen and (min-width: 769px) {
   .features-point li {
-    width: 32%;
-    padding: 1.5625em 1.4285714286em 1.25em;
+    width: 48%;
   }
 }
 .features-point li .point {
@@ -282,28 +284,13 @@
   line-height: 2.25;
   margin-bottom: 0.625em;
 }
-@media screen and (min-width: 769px) {
-  .features-point li .point {
-    font-size: 1.1428571429em;
-  }
-}
 .features-point li .ttl {
   font-size: 1.5em;
   margin-bottom: 0.75em;
 }
-@media screen and (min-width: 769px) {
-  .features-point li .ttl {
-    font-size: 1.2857142857em;
-  }
-}
 .features-point li .txt {
   font-size: 1.1666666667em;
   margin-top: 0.75em;
-}
-@media screen and (min-width: 769px) {
-  .features-point li .txt {
-    font-size: 1em;
-  }
 }
 
 .faciliy-slide {
@@ -388,7 +375,7 @@
 }
 
 .faciliy-icon {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto 1em;
   display: -webkit-box;
   display: -webkit-flex;
@@ -416,12 +403,6 @@
   width: 30%;
   margin: 0 1.5% 1em;
   text-align: center;
-}
-@media screen and (min-width: 769px) {
-  .faciliy-icon li {
-    width: 22%;
-    margin: 0 1.5% 1em;
-  }
 }
 .faciliy-icon li .txt {
   font-weight: 500;
@@ -453,6 +434,10 @@
   display: block;
   font-weight: 400;
   font-size: 0.8888888889em;
+}
+.price-dl dd span.sm {
+  font-size: 0.6666666667em;
+  margin-bottom: 0.75em;
 }
 
 .flow-btn {
@@ -771,6 +756,16 @@
   font-weight: 500;
   margin-bottom: 0.25em;
 }
+.contact-area__form dt .need {
+  display: inline-block;
+  background: #013b5c;
+  color: #FFF;
+  font-size: 0.7857142857em;
+  font-weight: bold;
+  padding: 0em 0.5em;
+  margin: 0 0 0 0.25em;
+  border-radius: 0.25em;
+}
 .contact-area__form dd {
   font-size: 1.1666666667em;
 }
@@ -888,4 +883,42 @@
 }
 .law-dl dd + dt {
   margin-top: 1.5em;
+}
+
+.aco-head {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5em 2.5em 1.5em 5em;
+  background: #f7f4ec;
+  border-radius: 0.5em;
+  width: auto;
+  position: relative;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media screen and (max-width: 640px) {
+  .aco-head {
+    padding: 1.5em 2.5em 1.5em 3em;
+    font-size: 1.1666666667em;
+  }
+}
+.aco-head:after {
+  content: "";
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  right: 1em;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  top: 50%;
+  background: url(../img/common/plus.svg) no-repeat;
+  background-position: center;
+}
+.aco-head.active:after {
+  background-image: url(../img/common/minus.svg);
+}
+
+.aco-body {
+  display: none;
+  margin-top: 2em;
 }

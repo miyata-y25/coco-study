@@ -715,6 +715,24 @@ sup {
   display: block;
   height: 100%;
 }
+.site-header .mypage-btn {
+  font-weight: bold;
+  text-align: center;
+  margin-left: 2.5em;
+}
+@media screen and (max-width: 768px) {
+  .site-header .mypage-btn {
+    margin-left: 1em;
+  }
+}
+.site-header .mypage-btn img {
+  width: 3.125em;
+}
+.site-header .mypage-btn span {
+  font-size: clamp(0.625em, 1vw, 0.625em);
+  display: block;
+  margin-top: 0.5em;
+}
 .site-header__sns {
   display: -webkit-box;
   display: -webkit-flex;

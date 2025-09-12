@@ -437,6 +437,22 @@ sup {
             height: 100%;
         }
     }
+    .mypage-btn {
+        font-weight: bold;
+        text-align: center;
+        margin-left: 2.5em;
+        @include max-screen($screen-sm) {
+            margin-left: 1em;
+        }
+        img {
+            width: (50em/16);
+        }
+        span {
+            font-size: clamp((10em/16), 1vw , (10em/16));
+            display: block;
+            margin-top: 0.5em;
+        }
+    }
     &__sns {
         display: flex;
         li {
