@@ -373,7 +373,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </dl>
     <dl class="access-dl">
         <dt>電話番号</dt>
-        <dd>090-3920-9064<br>受付時間　月～土　9：00～18：00</dd>
+        <dd>070-1535-5849<br>受付時間　月～土　9：00～18：00</dd>
     </dl>
     <dl class="access-dl">
         <dt>アクセス</dt>
