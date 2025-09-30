@@ -726,12 +726,16 @@ sup {
   }
 }
 .site-header .mypage-btn img {
-  width: 3.125em;
+  width: 2.5em;
 }
 .site-header .mypage-btn span {
-  font-size: clamp(0.625em, 1vw, 0.625em);
+  font-size: clamp(0.8125em, 1vw, 0.8125em);
   display: block;
-  margin-top: 0.5em;
+  margin-top: 0.25em;
+  font-style: italic;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0;
 }
 .site-header__sns {
   display: -webkit-box;

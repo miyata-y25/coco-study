@@ -47,6 +47,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h1 class="site-header__logo"><img src="assets/img/common/header_logo.svg" alt="ココスタディ紫明店"></h1>
         <a href="https://www.slim-sng.jp/slim/web/d/sng/member_login/?c=CT9XWHErzN5pnQ8&f=00001" target="_blank" class="mypage-btn">
             <img src="assets/img/common/icon_mypage.svg" alt="">
+            <span>MY PAGE</span>
         </a>
         <button type="button" class="menu-btn"><span><span></span><span></span><span>MENU</span></span></button>
         <div class="header-cont">

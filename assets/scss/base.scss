@@ -445,12 +445,16 @@ sup {
             margin-left: 1em;
         }
         img {
-            width: (50em/16);
+            width: (40em/16);
         }
         span {
-            font-size: clamp((10em/16), 1vw , (10em/16));
+            font-size: clamp((13em/16), 1vw , (13em/16));
             display: block;
-            margin-top: 0.5em;
+            margin-top: 0.25em;
+            font-style: italic;
+            font-weight: 500;
+            font-family: $Poppins-font;
+            letter-spacing: 0;
         }
     }
     &__sns {
